@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+group = 'h2'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.h2database:h2:1.4.184"
+    compile "commons-dbutils:commons-dbutils:1.6"
+}
